@@ -12,7 +12,7 @@ import PlacePage from "./pages/PlacePage";
 import BookingPage from "./pages/BookingPage";
 import BookingsPage from "./pages/BookingsPage";
 
-axios.defaults.baseURL = "http://localhost:4000";
+axios.defaults.baseURL = "https://airbmb.onrender.com";
 axios.defaults.withCredentials = true;
 
 const App = () => {

@@ -18,7 +18,9 @@ const IndexPage = () => {
               {place.photos?.[0] && (
                 <img
                   className="rounded-2xl object-cover aspect-square"
-                  src={"http://localhost:4000/uploads/" + place.photos?.[0]}
+                  src={
+                    "https://airbmb.onrender.com/uploads/" + place.photos?.[0]
+                  }
                 />
               )}
             </div>

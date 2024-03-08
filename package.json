@@ -8,6 +8,8 @@
     "client": "cd client && npm run dev"
   },
   "dependencies": {
-    "if-env": "^1.0.4"
+    "build": "^0.1.4",
+    "if-env": "^1.0.4",
+    "npm": "^10.5.0"
   }
 }
