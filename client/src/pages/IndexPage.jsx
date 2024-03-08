@@ -19,7 +19,7 @@ const IndexPage = () => {
                 <img
                   className="rounded-2xl object-cover aspect-square"
                   src={
-                    "https://airbmb-ewqp854kp-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
+                    "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
                     place.photos?.[0]
                   }
                 />
