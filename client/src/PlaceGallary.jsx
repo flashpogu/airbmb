@@ -30,13 +30,7 @@ const PlaceGallary = ({ place }) => {
           {place?.photos?.length > 0 &&
             place.photos.map((photo) => (
               <div key={place.name}>
-                <img
-                  src={
-                    "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
-                    photo
-                  }
-                  alt=""
-                />
+                <img src={"http://localhost:4000/uploads/" + photo} alt="" />
               </div>
             ))}
         </div>
@@ -52,10 +46,7 @@ const PlaceGallary = ({ place }) => {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className="cursor-pointer aspect-square object-cover"
-                src={
-                  "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
-                  place.photos?.[0]
-                }
+                src={"http://localhost:4000/uploads/" + place.photos?.[0]}
                 alt=""
               />
             </div>
@@ -66,10 +57,7 @@ const PlaceGallary = ({ place }) => {
             <img
               onClick={() => setShowAllPhotos(true)}
               className="cursor-pointer aspect-square object-cover"
-              src={
-                "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
-                place.photos?.[1]
-              }
+              src={"http://localhost:4000/uploads/" + place.photos?.[1]}
               alt=""
             />
           )}
@@ -78,10 +66,7 @@ const PlaceGallary = ({ place }) => {
               <img
                 onClick={() => setShowAllPhotos(true)}
                 className="cursor-pointer aspect-square object-cover relative top-2"
-                src={
-                  "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
-                  place.photos?.[2]
-                }
+                src={"http://localhost:4000/uploads/" + place.photos?.[2]}
                 alt=""
               />
             )}

@@ -65,10 +65,7 @@ const PhotosUploader = ({ addedPhotos, onChange }) => {
             <div className="h-32 flex relative" key={link}>
               <img
                 className="rounded-2xl w-full object-cover"
-                src={
-                  "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
-                  link
-                }
+                src={"http://localhost:4000/uploads/" + link}
                 alt=""
               />
               <button

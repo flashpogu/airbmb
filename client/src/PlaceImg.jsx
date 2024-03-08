@@ -6,10 +6,7 @@ const PlaceImg = ({ place, index = 0, className = null }) => {
   return (
     <img
       className={className}
-      src={
-        "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
-        place.photos[index]
-      }
+      src={"http://localhost:4000/uploads/" + place.photos[index]}
       alt=""
     />
   );
