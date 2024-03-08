@@ -12,8 +12,7 @@ import PlacePage from "./pages/PlacePage";
 import BookingPage from "./pages/BookingPage";
 import BookingsPage from "./pages/BookingsPage";
 
-axios.defaults.baseURL =
-  "https://airbmb-ewqp854kp-rahuls-projects-a9d4c0fb.vercel.app/";
+axios.defaults.baseURL = "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/";
 axios.defaults.withCredentials = true;
 
 const App = () => {

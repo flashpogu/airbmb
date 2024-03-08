@@ -66,7 +66,7 @@ const PhotosUploader = ({ addedPhotos, onChange }) => {
               <img
                 className="rounded-2xl w-full object-cover"
                 src={
-                  "https://airbmb-ewqp854kp-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
+                  "https://airbmb-rahuls-projects-a9d4c0fb.vercel.app/uploads/" +
                   link
                 }
                 alt=""
