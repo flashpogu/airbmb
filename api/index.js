@@ -22,7 +22,7 @@ app.use("/uploads", express.static(__dirname + "/uploads"));
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: "https://airbmb-ewqp854kp-rahuls-projects-a9d4c0fb.vercel.app/",
   })
 );
 
