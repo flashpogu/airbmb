@@ -20,13 +20,13 @@ function ProfilePage() {
     setUser(null);
   }
 
-  if (!ready) {
-    return "Loading.....";
-  }
+  // if (!ready) {
+  //   return "Loading.....";
+  // }
 
-  if (ready && !user && !redirect) {
-    return <Navigate to={"/login"} />;
-  }
+  // if (ready && !user && !redirect) {
+  //   return <Navigate to={"/login"} />;
+  // }
 
   if (redirect) {
     return <Navigate to={redirect} />;
